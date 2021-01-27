@@ -1,0 +1,51 @@
+@import "styles/shared.scss";
+
+.page-header {
+  background-color: $formcolor;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.user-info-form {
+  display: flex;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  transition: all 0.2s ease;
+}
+
+.form-input {
+  height: 40px;
+  padding: 0;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.submit-form-btn {
+  border: none;
+  padding: 0 10px;
+  border: none;
+  width: 24%;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $white;
+  font-weight: 700;
+  background-color: $blue;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-form-btn:hover {
+  background: #fff;
+  color: rgb(10, 191, 83);
+  box-shadow: 0 0 15px rgba(10, 191, 83, 0.8);
+}
